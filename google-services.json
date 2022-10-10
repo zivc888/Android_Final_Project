@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "663335131354",
+    "project_id": "here-messenger-d7e85",
+    "storage_bucket": "here-messenger-d7e85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663335131354:android:30b763abb7ae37c5066de3",
+        "android_client_info": {
+          "package_name": "com.companyname.here_messanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663335131354-crl1nh57rm990po71ap91prksv7h3hom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGBxQ1Re3Z6H1ZR_hLijl3q-Rh00bxUxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663335131354-crl1nh57rm990po71ap91prksv7h3hom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,10 +1,10 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Gms.Tasks;
 using Android.OS;
 using Android.Runtime;
 using Android.Widget;
 using AndroidX.AppCompat.App;
-using System.Threading.Tasks;
 
 namespace Here_Messanger
 {
@@ -23,9 +23,7 @@ namespace Here_Messanger
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 
-
             SetContentView(Resource.Layout.activity_main);
-
 
             mail = FindViewById<EditText>(Resource.Id.et_mail);
             password = FindViewById<EditText>(Resource.Id.et_password);
@@ -119,6 +117,8 @@ namespace Here_Messanger
                 if (task == tskLogin)
                 {
                     msg = "Login Successful";
+                    Intent i = new Intent(this, typeof(Home_Activity));
+                    StartActivity(i);
                 }
                 else if (task == tskReset)
                 {

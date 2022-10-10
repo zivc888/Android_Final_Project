@@ -34,10 +34,10 @@ namespace Here_Messanger
         private FirebaseOptions GetMyOptions()
         {
             return new FirebaseOptions.Builder()
-                .SetProjectId("fir-try-a9a4c")
-                .SetApplicationId("fir-try-a9a4c")
-                .SetApiKey("AIzaSyDyVnrNO9yNLYQsxyc69UEuj_qcCa52zTw")
-                .SetStorageBucket("fir-try-a9a4c.appspot.com")
+                .SetProjectId("here-messenger-d7e85")
+                .SetApplicationId("here-messenger-d7e85")
+                .SetApiKey("AIzaSyDtZ42miUkYWznW4re0g38L6aLn8UoBQ9o")
+                .SetStorageBucket("here-messenger-d7e85.appspot.com")
                 .Build();
         }
 
