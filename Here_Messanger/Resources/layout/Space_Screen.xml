@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layoutDirection="ltr"
+    android:background="#aaccee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#aaddee">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:src="@drawable/logo"
+            android:id="@+id/img_profile"
+            android:layout_marginRight="20dp"
+        />
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:text="Group"
+            android:autoSizeMaxTextSize="40dp"
+            android:autoSizeMinTextSize="5dp"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/tv_name"
+            android:layout_marginRight="20dp"
+        />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:src="@drawable/info"
+            android:id="@+id/img_info"
+            android:layout_marginRight="10dp"
+        />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:src="@drawable/back"
+            android:id="@+id/img_back"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="#aaddee"
+        >
+        <Button
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Chat"
+            android:id="@+id/btn_chat"
+        />
+        <Button
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Space"
+            android:id="@+id/btn_space"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="This is where a Google Drive's API goes..."
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginVertical="150dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        android:weightSum="10"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:src="@drawable/file"
+            android:id="@+id/img_file"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

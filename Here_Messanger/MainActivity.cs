@@ -118,6 +118,7 @@ namespace Here_Messanger
                 {
                     msg = "Login Successful";
                     Intent i = new Intent(this, typeof(Home_Activity));
+                    i.PutExtra(General.KEY_NAME, user.Name);
                     StartActivity(i);
                 }
                 else if (task == tskReset)

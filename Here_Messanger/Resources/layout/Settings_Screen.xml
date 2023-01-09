@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layoutDirection="ltr"
+    android:background="#aaccee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#aaddee">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:src="@drawable/logo"
+            android:id="@+id/img_profile"
+            android:layout_marginRight="20dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Ziv Cohen"
+            android:textSize="40dp"
+            android:id="@+id/tv_name"
+            android:layout_marginRight="20dp"
+        />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:src="@drawable/back"
+            android:id="@+id/img_back"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll_lbls"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Lables:"
+            android:textSize="30dp"
+            android:layout_marginTop="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="School"
+            android:textSize="20dp"
+            android:background="#33aa44"
+            android:gravity="center"
+            android:id="@+id/tv_lbl1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Technion"
+            android:textSize="20dp"
+            android:background="#ffdd44"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_lbl2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Urgent"
+            android:textSize="20dp"
+            android:background="#ff6600"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_lbl3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Work"
+            android:textSize="20dp"
+            android:background="#0066ff"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_lbl4"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Group"
+        android:id="@+id/btn_addGroup"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:id="@+id/btn_contacts"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:id="@+id/btn_signOut"
+        android:textSize="20dp"
+        android:textColor="#ff0000"/>
+
+</LinearLayout>
